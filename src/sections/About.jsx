@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import botanicals from "../assets/Images/botanicals.webp";
 import camomileflower from "../assets/Images/camomile-flowers.webp";
 import cardamonpods from "../assets/Images/cardamon-pods.webp";
 import cardamon from "../assets/Images/cardamon-pods.webp";
@@ -37,9 +36,10 @@ const Left = styled.div`
   width: 50%;
   font-size: ${(props) => props.theme.fontlg};
   font-weight: 300;
+  color: white;
   position: relative;
   z-index: 5;
-  margin-top: 20%;
+  margin-top: 10%;
 
   @media (max-width: 64em) {
     width: 80%;
@@ -121,6 +121,7 @@ const Title = styled.h1`
   font-size: ${(props) => props.theme.fontxxxl};
   font-family: "Metamorphous";
   font-weight: 200;
+  color: white;
   /* text-transform: capitalize; */
 
   position: absolute;
@@ -166,14 +167,14 @@ const About = () => {
       <Right>
         <img width="400"
           height="600"
-          src={kitchenglass}
+          src={still2}
           alt="About Us" />
 
         <img
           width="400"
           height="600"
           className="small-img-1"
-          src={still2}
+          src={kitchenglass}
           style={{ opacity: '.75', filter: 'brightness(75%)' }}
           alt="About Us"
           data-scroll

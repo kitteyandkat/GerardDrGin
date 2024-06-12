@@ -61,7 +61,7 @@ function App() {
               <About key="about" />
               <Botanicals key="Botanicals" />
               <Marquee key="marquee" />
-              <Products key="products" />
+              {/* <Products key="products" /> */}
               <Footer key="Footer" />
             </AnimatePresence>
           </main>

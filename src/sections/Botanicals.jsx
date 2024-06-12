@@ -3,7 +3,6 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
-import botanicals from "../assets/Images/botanicals.webp";
 import camomileflower from "../assets/Images/camomile-flowers.webp";
 import cardamonpods from "../assets/Images/cardamon-pods.webp";
 import hulledcardamon from "../assets/Images/hulled-cardamon.webp";
@@ -203,7 +202,7 @@ const Botanicals = () => {
 
           Gin originated as a medicinal liquor crafted by monks and alchemists throughout Europe. The modern form of gin was refined in Flanders and the Netherlands, where it was distilled from grapes and grains to produce aqua vita, eventually becoming a significant commercial spirit. Its popularity in England soared following the introduction of jenever, a Dutch and Belgian liquor. This trend began in the early 17th century but gained substantial momentum after the 1688 Glorious Revolution led by William of Orange and the subsequent import restrictions on French brandy. Consequently, gin emerged as England's national alcoholic drink during the Gin Craze of 1695–1735.
           <br /> <br />
-          We produce our gin by following the oldest oldest distillation tradition; pot distillation. We begin with a fermented grain mash, which is then redistilled with our signature blend of botanicals to extract aromatic compounds. These botanicals contribute to the complex flavor profile of the gin, adding layers of aroma and taste. This leads to a diverse gin with unmatched quality and unique characteristics.
+          We produce our gin by following the oldest oldest distillation tradition; pot distillation. We begin with a fermented grapes, grown on our very own vineyard, which is then redistilled with our signature blend of botanicals to extract aromatic compounds. These botanicals contribute to the complex flavor profile of the gin, adding layers of aroma and taste. This leads to a diverse gin with unmatched quality and unique characteristics.
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
