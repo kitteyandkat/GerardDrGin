@@ -3,7 +3,7 @@ import React from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 import styled from "styled-components";
 
-import Logo from "../assets/Svgs/glassxjuniper.svg";
+import Logo from "../assets/Svgs/xlogo.png";
 
 const Section = styled.section`
   min-height: 100vh;

@@ -1,7 +1,7 @@
 import '@fontsource/sirin-stencil';
 import '@fontsource/kaushan-script';
 import '@fontsource/metamorphous';
-import blackmarble from "../assets/Images/blackmarble.webp";
+import quarry from "../assets/Images/quarry.webp";
 
 import { createGlobalStyle } from 'styled-components';
 
@@ -46,7 +46,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(${blackmarble});
+    background-image: url(${quarry});
     background-repeat: repeat;
     background-size: auto;
 }

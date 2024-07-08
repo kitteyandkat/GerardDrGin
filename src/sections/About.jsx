@@ -145,53 +145,59 @@ const Title = styled.h1`
 
 const About = () => {
   return (
-    <Section id="fixed-target" className="about">
-      <Title
-        data-scroll
-        data-scroll-speed="-2"
-        data-scroll-direction="horizontal"
-      >
-        About Us
-      </Title>
-      <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
-        At Gerard Drive Gin, we cherish the timeless tradition of gin making. With a nod to history, we trace gin's evolution from its medicinal roots to a beloved spirit worldwide. Picture 18th-century England, where gin surged in popularity, immortalized in cultural references like William Hogarth's 'Gin Lane.' This era marked a cultural shift as gin joints welcomed women alongside men for the first time. Derived from the Dutch word "Genever" or the French "Genievre," gin carries with it a rich European heritage, reflecting centuries of craftsmanship and innovation.
-        <br />
-        <br />
-        Our story began at Gerard Drive in East Hampton, where we sourced our first juniper berries—the cornerstone botanical in gin production. These berries, handpicked from pristine landscapes, embody the essence of our commitment to quality and authenticity. Each juniper berry contributes to the intricate flavor profile of our gin, encapsulating the spirit of our artisanal approach to distillation.
-        Iste, sunt eos.
-        <br />
-        <br />
-        Indulge in the unparalleled craftsmanship of our gin. With meticulous attention to detail and a dedication to traditional methods, each bottle is a testament to our passion for excellence. From the harmonious blend of botanicals to the smooth, nuanced finish, our gin is a true masterpiece. Elevate your cocktail experience with our artisanal gin, crafted with care and expertise for the discerning palate!
-      </Left>
-
-      <Right>
-        <img width="400"
-          height="600"
-          src={still2}
-          alt="About Us" />
-
-        <img
-          width="400"
-          height="600"
-          className="small-img-1"
-          src={kitchenglass}
-          style={{ opacity: '.75', filter: 'brightness(75%)' }}
-          alt="About Us"
-          data-scroll
-          data-scroll-speed="5"
-        />
-        <img
-          width="400"
-          height="600"
-          className="small-img-2"
-          src={staranise}
-          alt="About Us"
+    <div>
+      <Section id="fixed-target" className="about" style={{ backgroundColor: 'rgba(34, 34, 34, 0.7)', padding:'.25 rem' }}>
+        <Title
           data-scroll
           data-scroll-speed="-2"
-        />
-      </Right>
-    </Section>
+          data-scroll-direction="horizontal"
+        >
+          About Us
+        </Title>
+        <Left data-scroll data-scroll-sticky data-scroll-target="#fixed-target">
+          At Gerard Drive Gin, we cherish the timeless tradition of gin making. With a nod to history, we trace gin's evolution from its medicinal roots to a beloved spirit worldwide. Picture 18th-century England, where gin surged in popularity, immortalized in cultural references like William Hogarth's 'Gin Lane.' This era marked a cultural shift as gin joints welcomed women alongside men for the first time. Derived from the Dutch word "Genever" or the French "Genievre," gin carries with it a rich European heritage, reflecting centuries of craftsmanship and innovation.
+          <br />
+          <br />
+          Our story began at Gerard Drive in East Hampton, where we sourced our first juniper berries—the cornerstone botanical in gin production. These berries, handpicked from pristine landscapes, embody the essence of our commitment to quality and authenticity. Each juniper berry contributes to the intricate flavor profile of our gin, encapsulating the spirit of our artisanal approach to distillation.
+          <br />
+          <br />
+          Indulge in the unparalleled craftsmanship of our gin. With meticulous attention to detail and a dedication to traditional methods, each bottle is a testament to our passion for excellence. From the harmonious blend of botanicals to the smooth, nuanced finish, our gin is a true masterpiece. Elevate your cocktail experience with our artisanal gin, crafted with care and expertise for the discerning palate!
+          <br />
+          <br />
+          Blurb about Grapes
+        </Left>
+
+        <Right>
+          <img width="400"
+            height="600"
+            src={still2}
+            alt="About Us" />
+
+          <img
+            width="500"
+            height="700"
+            className="small-img-1"
+            src={kitchenglass}
+            alt="About Us"
+            data-scroll
+            data-scroll-speed="5"
+            style={{ filter: 'brightness(50%)' }}
+          />
+
+          <img
+            width="400"
+            height="600"
+            className="small-img-2"
+            src={staranise}
+            alt="About Us"
+            data-scroll
+            data-scroll-speed="-2"
+          />
+        </Right>
+      </Section>
+    </div>
   );
 };
+
 
 export default About;

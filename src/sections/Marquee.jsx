@@ -67,7 +67,7 @@ const Banner = styled.h1`
 
 const Marquee = () => {
   return (
-    <Section>
+    <Section style={{ backgroundColor: 'rgba(34, 34, 34, 0.7)', padding:'.25 rem' }}>
       <Container id="direction">
         <Banner>
           <span
