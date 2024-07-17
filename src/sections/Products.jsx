@@ -107,6 +107,7 @@ const Title = styled(motion.h1)`
   top: 2rem;
   left: 1rem;
   z-index: 15;
+  color: white;
 
   @media (max-width: 64em) {
     font-size: ${(props) => props.theme.fontxxl};
@@ -127,6 +128,7 @@ const Text = styled.div`
   top: 0;
   right: 0;
   z-index: 11;
+  color: white;
 
   @media (max-width: 48em) {
     display: none;

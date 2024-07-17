@@ -161,10 +161,7 @@ const About = () => {
           Our story began at Gerard Drive in East Hampton, where we sourced our first juniper berries—the cornerstone botanical in gin production. These berries, handpicked from pristine landscapes, embody the essence of our commitment to quality and authenticity. Each juniper berry contributes to the intricate flavor profile of our gin, encapsulating the spirit of our artisanal approach to distillation.
           <br />
           <br />
-          Indulge in the unparalleled craftsmanship of our gin. With meticulous attention to detail and a dedication to traditional methods, each bottle is a testament to our passion for excellence. From the harmonious blend of botanicals to the smooth, nuanced finish, our gin is a true masterpiece. Elevate your cocktail experience with our artisanal gin, crafted with care and expertise for the discerning palate!
-          <br />
-          <br />
-          Blurb about Grapes
+          Indulge in the unparalleled craftsmanship of our gin. With meticulous attention to detail and a dedication to traditional methods, each bottle is a testament to our passion for excellence. From the harmonious blend of botanicals to the smooth, nuanced finish, our gin is a true masterpiece. Elevate your cocktail experience with our artisanal gin, crafted from our estate grown grapes, distilled with care and expertise for the discerning palate!
         </Left>
 
         <Right>
