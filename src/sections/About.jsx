@@ -145,8 +145,8 @@ const Title = styled.h1`
 
 const About = () => {
   return (
-    <div>
-      <Section id="fixed-target" className="about" style={{ backgroundColor: 'rgba(34, 34, 34, 0.7)', padding:'.25 rem' }}>
+    <div style={{ backgroundColor: 'rgba(112, 66, 20, 0.5)', padding:'.25 rem' }}>
+      <Section id="fixed-target" className="about">
         <Title
           data-scroll
           data-scroll-speed="-2"
@@ -178,10 +178,10 @@ const About = () => {
             alt="About Us"
             data-scroll
             data-scroll-speed="5"
-            style={{ filter: 'brightness(50%)' }}
+            // style={{ filter: 'brightness(50%)' }}
           />
 
-          <img
+          {/* <img
             width="400"
             height="600"
             className="small-img-2"
@@ -189,7 +189,7 @@ const About = () => {
             alt="About Us"
             data-scroll
             data-scroll-speed="-2"
-          />
+          /> */}
         </Right>
       </Section>
     </div>

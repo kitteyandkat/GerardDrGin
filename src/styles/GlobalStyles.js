@@ -47,8 +47,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url(${quarry});
-    background-repeat: repeat;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 *, *::before, *::after {

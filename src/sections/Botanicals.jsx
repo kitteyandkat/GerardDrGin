@@ -349,22 +349,22 @@ const Botanicals = () => {
       <Title data-scroll data-scroll-speed="-1">
         Botanicals
       </Title>
-      <Left>
+      <Right>
         <p>
 
           Gin originated as a medicinal liquor crafted by monks and alchemists throughout Europe. The modern form of gin was refined in Flanders and the Netherlands, where it was distilled from grapes and grains to produce aqua vita, eventually becoming a significant commercial spirit. Its popularity in England soared following the introduction of jenever, a Dutch and Belgian liquor. This trend began in the early 17th century but gained substantial momentum after the 1688 Glorious Revolution led by William of Orange and the subsequent import restrictions on French brandy. Consequently, gin emerged as England's national alcoholic drink during the Gin Craze of 1695–1735.
           <br /> <br />
-          We produce our gin by following the oldest oldest distillation tradition; pot distillation. We begin with fermented Crimson Pearl and Louise Swenson grapes, grown on our estate, which are then distilled with our signature blend of botanicals to extract aromatic compounds. These botanicals contribute to the complex flavor profile of the gin, adding layers of aroma and taste. This leads to a diverse gin with unmatched quality and unique characteristics.
+          We produce our gin by following the oldest distillation tradition; pot distillation. We begin with fermented Crimson Pearl and Louise Swenson grapes, grown on our estate, which are then distilled with our signature blend of botanicals to extract aromatic compounds. These botanicals contribute to the complex flavor profile of the gin, adding layers of aroma and taste. This leads to a diverse gin with unmatched quality and unique characteristics.
           <br /> <br />
 
           The Terroir of Dorset, nestled in the southern Vermont Green Mountains, offers a unique combination of climate, soil, and topography that enhances the cultivation of our Crimson Pearl and Louise Swenson grapes. The temperate climate, mineral-rich sandy loam soils, and the presence of Shelburne Marble, contribute to the grapes' complex flavors. The rolling hills provide excellent sun exposure and air circulation. Dorset's rich agricultural heritage and scenic landscapes further elevate the exceptional quality of these grape varieties.        </p>
-      </Left>
+      </Right>
       {/* <Title
        data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"
      >
        Products
      </Title> */}
-<Right style={{ backgroundColor: 'rgba(34, 34, 34, 0.7)', padding:'.25 rem' }}>
+<Left style={{ backgroundColor: 'rgba(112, 66, 20, 0.5)', padding:'.25 rem' }}>
       <Container ref={ScrollingRef}>
         <Product img={juniperberries} title="Juniper Berries" />
 //         <Product img={elderberries} title="Elderberries" />
@@ -375,7 +375,7 @@ const Botanicals = () => {
 //         <Product img={rosehips} title="Rosehips" />
 //         <Product img={staranise} title="Star Anise" />
       </Container>
-      </Right>
+      </Left>
       {/* 
      <Left data-scroll data-scroll-speed="-4">
        Our products are available for purchase at our exquisite Tasting Room or online, where you can explore our collection of unique gin blends and exquisite bottles from the comfort of your home. Each blend is expertly crafted, blending traditional botanicals with innovative flavors to offer a truly exceptional tasting experience. Whether you're seeking a classic juniper-forward gin or a more adventurous infusion, our diverse range has something to suit every taste.
